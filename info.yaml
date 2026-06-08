@@ -11,9 +11,7 @@ project:
   # How many tiles your design occupies? A single tile is about 167x108 uM.
   tiles: "1x1"          # Valid values: 1x1, 1x2, 2x2, 3x2, 4x2, 6x2 or 8x2
 
-
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
-# This section is for the datasheet/website. Use descriptive names (e.g., RX, TX, MOSI, SCL, SEG_A, etc.).
 pinout:
   # Inputs
   ui[0]: "A"
@@ -26,7 +24,7 @@ pinout:
   ui[7]: ""
 
   # Outputs
-  uo[0]: "5"
+  uo[0]: "S"
   uo[1]: ""
   uo[2]: ""
   uo[3]: ""
